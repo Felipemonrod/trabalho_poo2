@@ -62,6 +62,21 @@ src/
    - `javafx-sdk-25.0.1/`
    - `mysql-connector-j-9.5.0.jar`
 
+## 📥 Como baixar e usar
+
+1. **Download**
+   - Pelo navegador: acesse o repositório no GitHub, clique em `Code > Download ZIP`, extraia o conteúdo para uma pasta local (ex: `C:\Projetos\trabalho_poo2`).
+   - Com Git: execute `git clone https://github.com/Felipemonrod/trabalho_poo2.git` no PowerShell.
+2. **Dependências**
+   - Verifique se a pasta `lib/` contém o JavaFX SDK (`javafx-sdk-25.0.1`) e o conector MySQL (`mysql-connector-j-9.5.0.jar`).
+   - Caso esteja em outro local, ajuste os parâmetros `-JavaFxLib` ou copie os arquivos para `lib/`.
+3. **Compilação**
+   - Abra o PowerShell na raiz do projeto e execute `powershell -ExecutionPolicy Bypass -File scripts\compile.ps1`.
+4. **Execução**
+   - Rode `powershell -ExecutionPolicy Bypass -File scripts\run.ps1 -Mode cli` para o modo console, substituindo `cli` por `gui` ou `dash` conforme necessário.
+5. **Banco de dados (opcional)**
+   - Para usar o dashboard com MySQL, importe `dashboards_populacionais.sql`, ajuste credenciais via propriedades Java (`-Ddb.*`) e execute no modo `dash`.
+
 ## 🔧 Compilação
 
 Execute o script PowerShell de compilação:
