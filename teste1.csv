@@ -1,0 +1,4 @@
+tipo;codigo;nome;area;ano;habitantes;codigoEstado;uf
+ESTADO;41;Paraná;199307.90;2022;11443208;;PR
+MUNICIPIO;4106902;Curitiba;435.03;2022;1773731;41;PR
+MUNICIPIO;5208707;Goiânia;739.50;2025;1650000;52;GO

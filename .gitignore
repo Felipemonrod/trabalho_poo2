@@ -1,0 +1,33 @@
+# Build artifacts
+/target/
+/bin/
+/out/
+/build/
+/dist/
+
+# IDE and tooling metadata
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+
+# Java compiler outputs
+*.class
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment overrides
+*.env

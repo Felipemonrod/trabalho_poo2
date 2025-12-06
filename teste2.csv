@@ -1,0 +1,4 @@
+tipo,codigo,nome,area,ano,habitantes,codigoEstado,uf
+MUNICIPIO,5200000,Cidade Teste A,100.50,dois mil e vinte,10000,52,GO
+MUNICIPIO,5200001,Cidade Teste B,200.00,2022,10.000,52,GO
+MUNICIPIO,5200002,Cidade Teste C,,2022,5000,52,GO

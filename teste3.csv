@@ -1,0 +1,3 @@
+tipo;codigo;nome;area;ano;habitantes;codigoEstado;uf
+MUNICIPIO;9900001;Cidade Fantasma;500.00;2022;5000;99;XX
+MUNICIPIO;9900002;Outra Cidade;600.00;2022;6000;;XX
